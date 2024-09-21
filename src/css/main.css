@@ -18,9 +18,16 @@ video {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1306px 901px 0px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 p {
+  width: 100px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -32,6 +39,33 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.switzerland {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.usa {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.europe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
 }
 
 .switzerland .mobile {
@@ -55,7 +89,7 @@ p {
 
 .usa .mobile {
   display: flex;
-  width: 153px;
+  width: 195px;
   height: 30px;
   justify-content: center;
   align-items: center;
@@ -64,16 +98,17 @@ p {
 
 .usa .desktop {
   display: flex;
-  width: 147px;
+  width: 105px;
   height: 30px;
   justify-content: center;
   align-items: center;
+  border-radius: 0px 10px 10px 0px;
   background: #37d3d2;
 }
 
 .europe .mobile {
   display: flex;
-  width: 123px;
+  width: 195px;
   height: 30px;
   justify-content: center;
   align-items: center;
@@ -82,7 +117,7 @@ p {
 
 .europe .desktop {
   display: flex;
-  width: 177px;
+  width: 105px;
   height: 30px;
   justify-content: center;
   align-items: center;
@@ -90,12 +125,55 @@ p {
   background: #37d3d2;
 }
 
-.desktop,
-.mobile {
+.bar p {
   color: #fff;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend-desktop p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.legend-mobile p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.legend-desktop .rectangle1 {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+  border-right: 10px;
+}
+
+.legend-mobile .rectangle2 {
+  width: 16px;
+  height: 16px;
+  background: #37d3d2;
+  border-right: 10px;
 }
