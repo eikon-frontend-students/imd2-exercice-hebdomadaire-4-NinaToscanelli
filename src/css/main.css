@@ -27,7 +27,6 @@ video {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  padding-left: 19px;
 }
 
 .switzerland {
@@ -36,6 +35,7 @@ video {
   gap: 20px;
   align-self: stretch;
   flex-direction: row;
+  width: 100px;
 }
 
 p {
@@ -52,6 +52,7 @@ p {
   display: flex;
   align-items: center;
   gap: 2px;
+  padding-left: 20px;
 }
 
 .switzerland .mobile {
@@ -79,6 +80,7 @@ p {
   gap: 20px;
   align-self: stretch;
   flex-direction: row;
+  width: 100px;
 }
 
 .usa .mobile {
@@ -106,6 +108,7 @@ p {
   gap: 20px;
   align-self: stretch;
   flex-direction: row;
+  width: 100px;
 }
 
 .europe .mobile {
@@ -137,6 +140,36 @@ p {
 }
 .mobile p {
   color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.legend-desktop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend-mobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend p {
+  color: #000;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
