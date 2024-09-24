@@ -32,10 +32,8 @@ video {
 .switzerland {
   display: flex;
   align-items: center;
-  gap: 20px;
   align-self: stretch;
   flex-direction: row;
-  width: 100px;
 }
 
 p {
@@ -77,10 +75,8 @@ p {
 .usa {
   display: flex;
   align-items: center;
-  gap: 20px;
   align-self: stretch;
   flex-direction: row;
-  width: 100px;
 }
 
 .usa .mobile {
@@ -105,13 +101,12 @@ p {
 .europe {
   display: flex;
   align-items: center;
-  gap: 20px;
   align-self: stretch;
   flex-direction: row;
 }
 
 .eu .us .ch {
-  width: 100px;
+  width: 16px;
   text-align: right;
 }
 
