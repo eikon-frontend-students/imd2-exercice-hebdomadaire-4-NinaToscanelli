@@ -108,7 +108,11 @@ p {
   gap: 20px;
   align-self: stretch;
   flex-direction: row;
+}
+
+.eu .us .ch {
   width: 100px;
+  text-align: right;
 }
 
 .europe .mobile {
