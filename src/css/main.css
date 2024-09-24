@@ -138,6 +138,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 0px;
 }
 .mobile p {
   color: #fff;
@@ -146,6 +147,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 0px;
 }
 
 .legend {
